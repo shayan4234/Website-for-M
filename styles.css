@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma , sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cat {
+  position: relative;
+}
+
+.cat img {
+  width: 250px; /* Adjust size as needed */
+  height: auto;
+}
+
+.flower {
+  width: 30px;
+  height: 50px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  transform: rotate(45deg);
+}
+
+.message {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/*.background {
+background-image: (c:\Users\asif\Downloads\360_F_566564944_UjFr7WnJeq7nqmMmo4d4nAio6VyMjHK4 flowers.jpg)
+}
+  /*c:\Users\asif\Downloads\cats-cat-with-flower.gif);
+
+
+/*body {
+  background-image: url(c:\Users\asif\Downloads\cats-cat-with-flower.gif) /*.google.&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dpink%2Bflower%2Bbackground&psig=AOvVaw1xJNPUd_b9as4kTcOyglgO&ust=1710770396473000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjXsr-6-4QDFQAAAAAdAAAAABAD');
+  background-repeat: repeat; /* or repeat-x, repeat-y, no-repeat */
+  /* Additional properties for background customization */
+  /* background-size: cover; */
+  /* backgro
